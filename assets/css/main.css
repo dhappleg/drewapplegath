@@ -81,7 +81,9 @@ p.lead {
 
 .dev-icons .list-inline-item i:hover {
   color: #58a5f0;
+
 }
+
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
@@ -157,6 +159,7 @@ section.resume-section {
 
 section.resume-section .resume-item .resume-date {
   min-width: none;
+/*  display: inline-grid;*/
 }
 
 @media (min-width: 768px) {
@@ -187,6 +190,11 @@ a {
   color: #58a5f0;
 }
 
-a:hover, a:focus, a:active {
-  color: #824027;
+#skills > div > ul > li> a {
+  color: #868e96;
 }
+
+#skills > div > ul > li> a:hover {
+  color: #495064;
+}
+
