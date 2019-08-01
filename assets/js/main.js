@@ -26,3 +26,22 @@
   // });
 
 })(jQuery); // End of use strict
+
+/*
+ *  Adds functionality to set the section to a (hash)id from the address bar
+ */
+// $(document).scroll( function() {
+//   var currentPosition = $(this).scrollTop();
+//   $('#resume-container section').each(function () {
+//     // Calculate the start and end position of the section
+//     var sectionStart = $(this).offset().top;
+//     var sectionEnd = sectionStart + $(this).height();
+//     // If the current scroll lies between the start and the end of this section
+//     if (currentPosition >= sectionStart  && currentPosition < sectionEnd) {
+//       console.log($(this).attr('id')); 
+//       window.location.hash = $(this).attr('id'); 
+//         // Highlight the corresponding anchors
+//         // $('a[href=#' + $(this).attr('id') + ']').addClass('highlighted');
+//       }
+//     });
+// });
